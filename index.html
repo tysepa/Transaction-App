@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momo Transactions</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="Header">
+      <nav>
+        <label class="logo">MTN Transfer</label>
+
+        <ul class="menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="transaction.html">Transactions</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+        <label id="icon">
+          <!-- <i class="fas fa-bars"></i> -->
+          <img src="./image/menu.svg" alt="" />
+        </label>
+      </nav>
+    </div>
+
+    <section >
+       <div class="header">
+           <div class="profile">
+               <h1>Help ?</h1>
+               <div class="Wallet">
+                   <h1>RWF 24300</h1>
+                   <p>Wallet</p>
+               </div>
+               <div class="me">
+                   <img src="./image/DSC_0949.JPG" alt="">
+                   <p>Profile</p>
+
+               </div>
+
+           </div>
+           <div class="tools">
+               <button class="btn btn-primary">Add Money</button>
+               <button class="btn secondary">Withdrow Money</button>
+               <button class="btn third">Buy Airtime</button>
+
+           </div>
+
+       </div>
+
+        <div class="card">
+            <div class="card-left">
+                <h1>Outgoing Money</h1>
+                <div class="card-item">
+                    <div class="part-l">
+                        <h3>You money out</h3>
+                        <p>Sunday at 2:11 Am</p>
+
+                    </div>
+                    <div class="part-r">
+                        <p>-RWF 13000</p>
+                    </div>
+                    <img src="./image/pcpers.jpeg" alt="">
+                </div>
+                <p class="dirt">Money out to MOMO: +2507888888435</p>
+
+            </div>
+            <div class="card-rigth">
+                <h1>Incoming Money</h1>
+                <div class="card-item">
+                    <div class="part-l">
+                        <h3>You money In</h3>
+                        <p>Sunday at 2:11 Am</p>
+
+                    </div>
+                    <div class="part-r">
+                        <p>+RWF 13000</p>
+                    </div>
+                    <img src="./image/pcpers.jpeg" alt="">
+                </div>
+                <p class="dirt">Money In from MOMO: +2507888888435</p>
+
+            </div>
+            
+
+        </div>
+        <button class="btn btn-send">Send Money</button>
+    </section>
+  </body>
+</html>
